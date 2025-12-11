@@ -325,6 +325,21 @@
 .submit-button:hover {
   transform: scale(1.02);
 }
+.login-button {
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 1rem;
+}
+.login-button:hover {
+  transform: scale(1.02);
+}
 
 /* Responsive design */
 @media (max-width: 768px) {
